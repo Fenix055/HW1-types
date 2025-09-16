@@ -10,7 +10,7 @@ public class Main {
         /// Task 1
         double dog = 8.0;
         double cat = 3.6;
-        long paper = 763789;
+        int paper = 763789;
         print(dog, cat, paper);
 
         /// Task 2

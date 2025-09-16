@@ -1,6 +1,6 @@
 public class Main {
     public static void print(Object... args){
-        for (int i=0; i< args.length; i++) {
+        for (byte i=0; i< args.length; i++) {
             System.out.println(args[i]);
         }
         System.out.println();
@@ -8,9 +8,9 @@ public class Main {
     public static void main(String[] args) {
 
         /// Task 1
-        double dog = 8.0;
-        double cat = 3.6;
-        long paper = 763789;
+        float dog = 8.0f;
+        float cat = 3.6f;
+        int paper = 763789;
         print(dog, cat, paper);
 
         /// Task 2
@@ -54,5 +54,4 @@ public class Main {
         System.out.println("Всего работников в компании — " + work/8 + " человек");
         System.out.println("Если в компании работает " +(work/8+94)+ " человек, то всего "+ (work+8*94) +" часов работы может быть поделено между сотрудниками");
     }
-    ///
 }

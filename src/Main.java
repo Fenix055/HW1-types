@@ -8,8 +8,8 @@ public class Main {
     public static void main(String[] args) {
 
         /// Task 1
-        double dog = 8.0;
-        double cat = 3.6;
+        float dog = 8.0f;
+        float cat = 3.6f;
         int paper = 763789;
         print(dog, cat, paper);
 
